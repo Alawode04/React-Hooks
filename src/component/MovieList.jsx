@@ -11,7 +11,8 @@ const MovieList = ({movies}) => {
           title={movie.title}
           description={movie.description}
           posterUrl={movie.posterUrl}
-          rating={movie.rating}/>
+          rating={movie.rating}
+          trailer={trailer}/>
         ))}
       
     </>
